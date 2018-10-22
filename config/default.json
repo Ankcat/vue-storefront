@@ -165,6 +165,7 @@
       "setupVariantByAttributeCode": true,
       "endpoint": "http://localhost:8080/api/product",
       "defaultFilters": ["color", "size", "price", "erin_recommends"],
+      "aggregationSize": 100,
       "filterFieldMapping": {
         "category.name": "category.name.keyword"
       },
